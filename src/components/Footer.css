@@ -1,0 +1,49 @@
+/* Footer.css */
+
+.footer {
+  background-color: #1e1e2f; /* Dark background to match header */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: #4db6e2; /* Blue accent color */
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #ffffff;
+  transform: scale(1.1); /* Slight scale effect on hover */
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #a8a8a8; /* Slightly lighter gray for subtle contrast */
+}
+
+@media (max-width: 668px) {
+  .footer-icon {
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
